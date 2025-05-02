@@ -2,12 +2,12 @@ body{
     position: relative;
     left: 20%;
     overflow-x: hidden;
-    background: linear-gradient(rgba(192, 158, 158, 0.5),rgb(231, 186, 186));
+    background: linear-gradient(rgba(122, 115, 115, 0.5),rgb(163, 106, 106));
 }
 header{
     display: flex;
     gap: 3%;
-    background-color: pink;
+    background-color: rgb(233, 219, 221);
     padding-left: 7%;
 }
 header a{
@@ -37,6 +37,7 @@ header a:hover{
         padding-left: 3%;
         width: 32%;
         border-radius: 20px;
+        margin-left: 7%;
         margin-top: 2%;
         font-size: 20px;
         box-shadow: 10px 10px 20px 5px rgb(55, 97, 97);
@@ -45,15 +46,19 @@ header a:hover{
 .roles{
     display: flex;
     gap: 3%;
+    margin-top: 2%;
+    font-size: 20px;
 }
 .roles img{
     width: 450px;
-    height: 510px;
+    height: 560px;
     border-radius: 5%;
 }
 .insights{
     display: flex;
     gap: 3%;
+    margin-top: 2%;
+    font-size: 20px;
 }
 .insights img{
     width: 300px;
@@ -63,6 +68,7 @@ header a:hover{
 .conclusion{
     display: flex;
     gap: 3%;
+    margin-top: 2%;
 }
 .conclusion img{
   
@@ -72,9 +78,14 @@ footer{
     background-color: black;
     color: white;
     padding: 3px;
-    padding-left: 5px;
+    padding-left: 2%;
 }
-@media (max-width:400px){
+footer button:hover{
+    color: gray;
+    cursor: pointer;
+    border-radius: 5%;
+}
+@media (max-width:500px){
     body{
         left: 0px;
         font-size: 14px;
@@ -106,6 +117,7 @@ footer{
             width: 90%;
             border-radius: 20px;
             margin-top: 2%;
+            margin-left: 3%;
             font-size: 15px;
         
     }
